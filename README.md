@@ -9,7 +9,7 @@ As of 5/3/17 only v.3.8.0 was available on Mule's nexus repo
 For a simple application using 8081 port as HTTP
 
 ```
-docker run -d -name myMuleInstance -P -v ~/myAppsDir:/opt/mule/apps -v ~/myLogsDir:/opt/mule/logs mule-runtime-onprem
+docker run -d -name myMuleInstance -P -v ~/myAppsDir:/opt/mule/apps -v ~/myLogsDir:/opt/mule/logs martenc/mule-runtime-onprem
 ```
 
 #### Noteworthy mount points
